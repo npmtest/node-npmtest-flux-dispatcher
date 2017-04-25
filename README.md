@@ -10,7 +10,7 @@
 |--:|:--|
 | coverage : | [![istanbul-coverage](https://npmtest.github.io/node-npmtest-flux-dispatcher/build/coverage.badge.svg)](https://npmtest.github.io/node-npmtest-flux-dispatcher/build/coverage.html/index.html)|
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-flux-dispatcher/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-flux-dispatcher/build/test-report.html)|
-| build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-flux-dispatcher/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-flux-dispatcher/tree/gh-pages/build)|
+| test-server-github : | [![github.com test-server](https://npmtest.github.io/node-npmtest-flux-dispatcher/GitHub-Mark-32px.png)](https://npmtest.github.io/node-npmtest-flux-dispatcher/build/app/index.html) | | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-flux-dispatcher/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-flux-dispatcher/tree/gh-pages/build)|
 
 - [https://npmtest.github.io/node-npmtest-flux-dispatcher/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-flux-dispatcher/build/coverage.html/index.html)
 
@@ -35,39 +35,56 @@
 ```json
 
 {
-    "name": "flux-dispatcher",
-    "version": "1.1.5",
-    "description": "A Flux dispatcher ready for action.",
-    "main": "index.js",
-    "scripts": {
-        "test": "lab -c -L",
-        "test-cover": "lab -c -r html -o ./test/artifacts/coverage.html && open ./test/artifacts/coverage.html"
+    "author": {
+        "name": "Reza Akhavan",
+        "url": "http://reza.akhavan.me/"
     },
-    "repository": {
-        "type": "git",
-        "url": "https://github.com/jedireza/flux-dispatcher"
-    },
-    "keywords": [
-        "flux",
-        "dispatcher",
-        "react"
-    ],
-    "author": "Reza Akhavan <jedireza@gmail.com> (http://reza.akhavan.me/)",
-    "license": "MIT",
     "bugs": {
         "url": "https://github.com/jedireza/flux-dispatcher/issues"
     },
-    "homepage": "https://github.com/jedireza/flux-dispatcher",
-    "peerDependencies": {
-        "flux": "2.x.x"
-    },
+    "dependencies": {},
+    "description": "A Flux dispatcher ready for action.",
     "devDependencies": {
         "code": "3.x.x",
         "eslint-config-hapi": "10.x.x",
         "eslint-plugin-hapi": "4.x.x",
         "flux": "2.x.x",
         "lab": "11.x.x"
-    }
+    },
+    "directories": {},
+    "dist": {
+        "shasum": "4af6b1f22967c08f3e851432559a7b32b093954a",
+        "tarball": "https://registry.npmjs.org/flux-dispatcher/-/flux-dispatcher-1.1.5.tgz"
+    },
+    "gitHead": "50508777f2f15fc7ef0b65e731b9d56061a9d438",
+    "homepage": "https://github.com/jedireza/flux-dispatcher",
+    "keywords": [
+        "flux",
+        "dispatcher",
+        "react"
+    ],
+    "license": "MIT",
+    "main": "index.js",
+    "maintainers": [
+        {
+            "name": "jedireza"
+        }
+    ],
+    "name": "flux-dispatcher",
+    "optionalDependencies": {},
+    "peerDependencies": {
+        "flux": "2.x.x"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/jedireza/flux-dispatcher.git"
+    },
+    "scripts": {
+        "test": "lab -c -L",
+        "test-cover": "lab -c -r html -o ./test/artifacts/coverage.html && open ./test/artifacts/coverage.html"
+    },
+    "version": "1.1.5",
+    "bin": {}
 }
 ```
 
